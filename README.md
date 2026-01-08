@@ -13,7 +13,7 @@ Demonstration of a vulnerable login panel from lack of input sanitization and ca
 
 ## Documentation
 
-[Writeup](https://canandrew.ca/sql-inject-writeup)
+[Writeup](https://canandrew.ca/sql_injection_writeup.pdf)
 
 
 ## Run Locally
