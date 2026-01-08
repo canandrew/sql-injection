@@ -1,6 +1,7 @@
 <?php
-// check-login.php
 /*
+SQL Injection by Andrew Myrden
+
 check-login.php PURPOSE:
 PHP file for the index (home) page of the demo. Displays a sample 'admin login' which
 is vulnerable to SQL Injection, due to a lack of input sanitization.
@@ -10,11 +11,11 @@ Created 2026-01-04
 
 require 'connect.php'; 
 
-// Set header to return plain text for AJAX
+// set header to return plain text for AJAX
 header('Content-Type: text/plain'); 
 
-// Get username and password from POST request
-// Coalesce operator (??) ensures script doesn't crash if vars are missing
+// get username and password from POST request
+// coalesce operator (??) ensures script doesn't crash if vars are missing
 $user = $_POST['username'] ?? '';
 $pass = $_POST['password'] ?? '';
 

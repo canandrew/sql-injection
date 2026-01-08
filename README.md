@@ -8,7 +8,7 @@ Demonstration of a vulnerable login panel from lack of input sanitization and ca
 
 ## Authors
 
-- [@canandrew](https://www.github.com/canandrew)
+[@canandrew](https://www.github.com/canandrew)
 
 
 ## Documentation
